@@ -58,3 +58,23 @@ body {
     width: 33%;
     float: right;
 }
+
+a:link {
+    color: #130f0e;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #130f0e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+a:active {
+    color: #9FA8DA;
+    text-decoration: none;
+}
