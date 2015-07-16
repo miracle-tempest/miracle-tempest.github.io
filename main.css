@@ -7,7 +7,7 @@
 
 ::selection {
     color: #ecf0f1;
-    background-color: #7986cb;
+    background-color: #9b59b6;
     ;
 }
 
@@ -18,63 +18,62 @@ body {
     color: #130f0e;
 }
 
-.title h1,
-.container h3 {
-    padding: 2em;
-    padding-bottom: 0.5em;
-}
-
-.title h1 {
+h1 {
     font-size: 2em;
+    padding: 2em 2em 0.5em;
 }
 
-.container h3,
-.container p {
+.top,
+.bottom {
     margin: 25px;
 }
 
-.container h3 {
-    background-color: #3949AB;
+.top {
+    color: #ecf0f1;
+    padding: 2em;
+    font-size: 1.2em;
+    background-color: #2980b9;
     margin-bottom: 0;
 }
 
-.container p {
-    background-color: #5C6BC0;
+.bottom {
+    background-color: #3498db;
     margin-top: 0;
     padding: 2em;
 }
 
-.dance {
-    float: left;
-    width: 33%;
-}
-
-.code {
+.info {
     width: 33%;
     display: inline-block;
 }
 
-.blind {
-    width: 33%;
-    float: right;
-}
-
-a:link {
+a {
     color: #130f0e;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #130f0e;
-    text-decoration: none;
+    text-decoration: underline;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
 
 a:hover {
     color: #ecf0f1;
-    text-decoration: none;
 }
 
 a:active {
     color: #9FA8DA;
-    text-decoration: none;
+}
+
+.social {
+    padding: 20px;
+    float: right;
+}
+
+.social i {
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.ico-gp:hover {
+    color: #dd4b39;
 }
