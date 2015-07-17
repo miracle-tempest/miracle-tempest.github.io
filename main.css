@@ -33,7 +33,7 @@ h1 {
     padding: 2em;
     font-size: 1.2em;
     background-color: #2980b9;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 .bottom {
@@ -45,12 +45,6 @@ h1 {
 .info {
     width: 33%;
     float: left;
-}
-
-.info-right {
-    width: 66%;
-    display: inline-block;
-    float: right;
 }
 
 a {
@@ -98,4 +92,25 @@ a:active {
 
 .ico-spotify:hover {
     color: #2ebd59
+}
+
+table {
+    margin: 25px;
+    width: 66%;
+    border-spacing: 5px;
+}
+
+th,
+td {
+    padding: 35px;
+}
+
+th {
+    background-color: #2980b9;
+    font-size: 1.2em;
+    color: #ecf0f1;
+}
+
+td {
+    background-color: #3498db;
 }
