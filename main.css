@@ -65,7 +65,7 @@ a:active {
 
 .social {
     padding: 20px;
-    float: right;
+    display: inline-block;
 }
 
 .social i {
@@ -76,4 +76,8 @@ a:active {
 
 .ico-gp:hover {
     color: #dd4b39;
+}
+
+.ico-gh:hover {
+    color: #4183c4;
 }
