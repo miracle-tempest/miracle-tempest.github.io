@@ -44,6 +44,11 @@ h1 {
 
 .info {
     width: 33%;
+    float: left;
+}
+
+.info-right {
+    width: 66%;
     display: inline-block;
 }
 
@@ -88,4 +93,8 @@ a:active {
 
 .ico-mail2:hover {
     color: #f1c40f;
+}
+
+.ico-spotify:hover {
+    color: #2ebd59
 }
