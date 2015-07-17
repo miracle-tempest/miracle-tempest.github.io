@@ -34,12 +34,16 @@ h1 {
     font-size: 1.2em;
     background-color: #2980b9;
     margin-bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .bottom {
     background-color: #3498db;
     margin-top: 0;
     padding: 2em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .info {
@@ -80,4 +84,12 @@ a:active {
 
 .ico-gh:hover {
     color: #4183c4;
+}
+
+.ico-yt:hover {
+    color: #cd201f;
+}
+
+.ico-mail2:hover {
+    color: #f1c40f;
 }
