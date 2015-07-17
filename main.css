@@ -50,6 +50,7 @@ h1 {
 .info-right {
     width: 66%;
     display: inline-block;
+    float: right;
 }
 
 a {
