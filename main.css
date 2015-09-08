@@ -7,8 +7,7 @@
 
 ::selection {
     color: #ecf0f1;
-    background-color: #9b59b6;
-    ;
+    background-color: #8e44ad;
 }
 
 body {
@@ -23,51 +22,41 @@ h1 {
     padding: 2em 2em 0.5em;
 }
 
-.top,
-.bottom {
-    margin: 25px;
+button {
+    font-size: 1.5em;
 }
 
-.top {
-    color: #ecf0f1;
-    padding: 2em;
-    font-size: 1.2em;
-    background-color: #2980b9;
-    margin-bottom: 5px;
+.text {
+    display: none;
 }
 
-.bottom {
-    background-color: #3498db;
-    margin-top: 0;
-    padding: 2em;
-}
-
-.info {
-    width: 33%;
-    float: left;
+ul,
+li {
+    list-style: none;
 }
 
 a {
     color: #130f0e;
-    text-decoration: underline;
+    text-decoration: none;
     -webkit-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
 
 a:hover {
-    color: #ecf0f1;
+    color: #2980b9;
 }
 
 a:active {
-    color: #9FA8DA;
+    color: #8e44ad;
 }
 
-.social {
-    display: inline-block;
+.content {
+    margin: 50px;
 }
 
 .social i {
+    display: inline-block;
     -webkit-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -92,25 +81,4 @@ a:active {
 
 .ico-spotify:hover {
     color: #2ebd59
-}
-
-table {
-    margin: 25px;
-    width: 66%;
-    border-spacing: 5px;
-}
-
-th,
-td {
-    padding: 35px;
-}
-
-th {
-    background-color: #2980b9;
-    font-size: 1.2em;
-    color: #ecf0f1;
-}
-
-td {
-    background-color: #3498db;
 }
