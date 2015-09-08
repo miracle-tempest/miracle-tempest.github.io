@@ -17,27 +17,38 @@ body {
     color: #130f0e;
 }
 
+img {
+    margin: 72px 32px 12px 32px;
+}
+
 h1 {
-    font-size: 2em;
-    padding: 2em 2em 0.5em;
+    font-size: 32px;
+    margin: 32px 32px 6px 32px;
+}
+
+h2 {
+    margin: 6px 32px 32px 32px;
+}
+
+h2,
+button {
+    font-size: 24px;
 }
 
 button {
-    font-size: 1.5em;
+    margin: 32px 32px 12px 32px;
+    padding: 12px;
 }
 
 .text {
     display: none;
-}
-
-ul,
-li {
-    list-style: none;
+    font-size: 18px;
+    margin: 6px 150px 64px 150px;
 }
 
 a {
     color: #130f0e;
-    text-decoration: none;
+    text-decoration: underline;
     -webkit-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -51,8 +62,8 @@ a:active {
     color: #8e44ad;
 }
 
-.content {
-    margin: 50px;
+.social {
+    margin-top: 64px;
 }
 
 .social i {
