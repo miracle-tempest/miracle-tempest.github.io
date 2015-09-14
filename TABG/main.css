@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+body,
+button {
+    background-color: #2980b9;
+    color: #130f0e;
+}
+
+.social button {
+    margin: 32px 64px;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 200;
+    padding: 64px 32px 4px 32px;
+}
+
+h1,
+h2,
+.footer {
+    text-align: center;
+}
+
+h2 {
+    padding: 4px 32px 32px 32px;
+}
+
+h2,
+button {
+    font-size: 32px;
+}
+
+button {
+    font-weight: 200;
+    margin: 64px 64px 4px 64px;
+}
+
+p {
+    padding: 4px 64px 32px 64px;
+}
+
+p,
+.text {
+    font-size: 18px;
+}
+
+.text {
+    padding: 16px 64px 32px 64px;
+    display: none;
+}
+
+.social {
+    margin-top: 64px;
+}
+
+.social i {
+    display: inline-block;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    padding: 20px;
+}
+
+.icons {
+    display: none;
+    margin: 32px 64px;
+    background-color: #130f0e;
+    color: #ecf0f1;
+}
+
+.ico-gp:hover {
+    color: #dd4b39;
+}
+
+.ico-mail2:hover {
+    color: #f1c40f;
+}
+
+.footer {
+    margin: 64px 32px;
+}
+
+a {
+    text-decoration: underline;
+    color: #130f0e;
+    transition-duration: 0.3s;
+}
+
+a:hover {
+    color: #8e44ad;
+}

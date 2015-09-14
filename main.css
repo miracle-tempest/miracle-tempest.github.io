@@ -93,3 +93,7 @@ a:active {
 .ico-spotify:hover {
     color: #2ebd59
 }
+
+ui {
+    list-style: none;
+}
