@@ -140,3 +140,12 @@ a:hover {
 .highlighted {
     background-color: #130f0e;
 }
+
+.construction {
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #130f0e;
+    color: #ecf0f1;
+    text-transform: uppercase;
+}
