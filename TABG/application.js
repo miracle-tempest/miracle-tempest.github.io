@@ -8,4 +8,14 @@ $(document).ready(function () {
     $('.ico-mail2').on('click', function () {
         $(this).closest('.email').find('.contactform').slideToggle()
     });
+    $('.icons').on('mouseenter', function () {
+        $(this).addClass('highlighted');
+
+    });
+    $('.icons').on('mouseleave', function () {
+        $(this).removeClass('highlighted');
+
+    })
+
+
 });

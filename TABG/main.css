@@ -18,7 +18,7 @@ button {
 .submit button {
     color: #ecf0f1;
     background-color: #130f0e;
-    padding: 0;
+    padding: 12px;
     margin: 24px 0;
     font-size: 24px;
 }
@@ -69,16 +69,21 @@ p,
 .social i,
 .ico-social {
     display: inline-block;
+    padding: 20px;
+}
+
+.social i,
+.ico-social,
+.icons {
     -webkit-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    padding: 20px;
 }
 
 .icons {
     display: none;
     margin: 32px 64px;
-    background-color: #130f0e;
+    background-color: rgba(19, 15, 14, 0.9);
     color: #ecf0f1;
     text-align: center;
 }
@@ -130,4 +135,8 @@ a:hover {
 
 .itemname {
     padding: 32px 0 8px 0;
+}
+
+.highlighted {
+    background-color: #130f0e;
 }
