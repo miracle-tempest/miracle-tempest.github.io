@@ -99,3 +99,25 @@ a {
 a:hover {
     color: #8e44ad;
 }
+
+.contactform {
+    margin: 32px;
+    padding: 32px;
+    display: none;
+}
+
+.itemname {
+    padding: 18px 0 6px 0;
+}
+
+.send {
+    padding: 0;
+    margin: 0;
+    background-color: #130f0e;
+    color: #ecf0f1;
+}
+
+button .ico {
+    background: #130f0e;
+    color: #ecf0f1;
+}

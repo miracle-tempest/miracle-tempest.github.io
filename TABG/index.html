@@ -19,15 +19,24 @@
 
         <div class="icons">
             <!--Google Plus-->
-            <i onclick="window.open( 'https://plus.google.com/+MirandaLoughry', '_blank') " class="ico ico-gp ico-3x "></i>&bull;
+            <i onclick="window.open( 'https://plus.google.com/+MirandaLoughry', '_blank') " class="ico ico-gp ico-3x"></i>&bull;
             <!--Email-->
-            <div class="email">
-                <i onclick="window.open( 'mailto:miranda.loughry@gmail.com', '_blank') " class="ico ico-mail2 ico-3x "></i>
+            <span class="email">
+                <i class="ico ico-mail2 ico-3x "></i>
                 <form action="mailto:miranda.loughry@gmail.com" method="post" enctype="text/plain" class="contactform">
-                    <span class="itemname">First Name</span>
+                    <div class="itemname">First Name</div>
                     <input type="text" name="First_Name" placeholder="John">
+                    <div class="itemname">Last Name</div>
+                    <input type="text" name="Last_Name" placeholder="Smith">
+                    <div class="itemname">Email</div>
+                    <input type="text" name="Email" placeholder="badwolf@tardis.com">
+                    <div class="itemname">Message</div>
+                    <textarea name="Message" id="message" cols="64" rows="8"></textarea>
+                    <div>
+                        <button class="send">Send</button>
+                    </div>
                 </form>
-            </div>
+            </span>
         </div>
     </div>
 
