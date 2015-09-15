@@ -86,12 +86,12 @@ a:active {
     color: #cd201f;
 }
 
-.ico-mail2:hover {
-    color: #f1c40f;
-}
-
 .ico-spotify:hover {
     color: #2ebd59
+}
+
+.ico-mail2:hover {
+    color: #f1c40f;
 }
 
 ui {

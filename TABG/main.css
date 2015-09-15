@@ -20,6 +20,7 @@ button {
     background-color: #130f0e;
     padding: 0;
     margin: 24px 0;
+    font-size: 24px;
 }
 
 h1 {
@@ -29,8 +30,7 @@ h1 {
 }
 
 h1,
-h2,
-.footer {
+h2 {
     text-align: center;
 }
 
@@ -63,7 +63,7 @@ p,
 }
 
 .social {
-    margin-top: 64px;
+    margin: 24px, 64px;
 }
 
 .social i,
@@ -80,6 +80,7 @@ p,
     margin: 32px 64px;
     background-color: #130f0e;
     color: #ecf0f1;
+    text-align: center;
 }
 
 .ico-social:hover {
@@ -98,6 +99,14 @@ p,
     color: #8e44ad;
 }
 
+.ico-yt:hover {
+    color: #cd201f;
+}
+
+.ico-spotify:hover {
+    color: #2ebd59
+}
+
 a {
     text-decoration: underline;
     color: #130f0e;
@@ -112,8 +121,13 @@ a:hover {
     margin: 32px;
     padding: 32px;
     display: none;
+    font-size: 18px;
+}
+
+.input {
+    padding: 6px;
 }
 
 .itemname {
-    padding: 18px 0 6px 0;
+    padding: 32px 0 8px 0;
 }
