@@ -11,7 +11,7 @@ body {
 
 body,
 button {
-    background-color: #2980b9;
+    background-color: #3498db;
     color: #130f0e;
 }
 
@@ -86,10 +86,6 @@ p,
     color: #f1c40f;
 }
 
-.footer {
-    margin: 64px 32px;
-}
-
 a {
     text-decoration: underline;
     color: #130f0e;
@@ -114,10 +110,5 @@ a:hover {
     padding: 0;
     margin: 0;
     background-color: #130f0e;
-    color: #ecf0f1;
-}
-
-button .ico {
-    background: #130f0e;
     color: #ecf0f1;
 }
