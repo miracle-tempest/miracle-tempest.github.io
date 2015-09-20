@@ -22,28 +22,25 @@ img {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 48px;
     margin: 32px 32px 6px 32px;
+    font-weight: 400;
 }
 
 h2 {
     margin: 6px 32px 32px 32px;
-}
-
-h2,
-button {
-    font-size: 24px;
-}
-
-button {
-    margin: 32px 32px 12px 32px;
-    padding: 12px;
-}
-
-.text {
-    display: none;
     font-size: 18px;
-    margin: 6px 150px 64px 150px;
+}
+
+.content {
+    margin: 32px 248px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.content,
+.social {
+    opacity: 0.8;
 }
 
 a {
@@ -72,6 +69,9 @@ a:active {
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
     padding: 20px;
+    position: relative;
+    top: 10px;
+    color: #130f0e;
 }
 
 .ico-gp:hover {
@@ -96,4 +96,8 @@ a:active {
 
 ui {
     list-style: none;
+}
+
+#profilepic {
+    border-radius: 100%;
 }
