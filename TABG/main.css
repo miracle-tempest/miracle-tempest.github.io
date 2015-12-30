@@ -1,4 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
+/* Flat UI Colors 
+#ecf0f1;
+#130f0e;
+#3498db;
+*/
+
+
+/* General */
+
 * {
     padding: 0;
     margin: 0;
@@ -6,146 +14,67 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-}
-
-body,
-button {
     background-color: #3498db;
+    font-family: 'Lato', sans-serif;
     color: #130f0e;
 }
 
-.submit button {
-    color: #ecf0f1;
-    background-color: #130f0e;
-    padding: 12px;
-    margin: 24px 0;
-    font-size: 24px;
-}
-
-h1 {
-    font-size: 72px;
-    font-weight: 200;
-    padding: 64px 32px 4px 32px;
-}
-
-h1,
-h2 {
-    text-align: center;
-}
-
-h2 {
-    padding: 4px 32px 32px 32px;
-}
-
-h2,
-button {
-    font-size: 32px;
-}
-
-button {
-    font-weight: 200;
-    margin: 64px 64px 4px 64px;
-}
-
-p {
-    padding: 4px 64px 32px 64px;
-}
-
-p,
-.text {
-    font-size: 18px;
-}
-
-.text {
-    padding: 16px 64px 32px 64px;
-    display: none;
-}
-
-.social {
-    margin: 24px, 64px;
-}
-
-.social i,
-.ico-social {
-    display: inline-block;
-    padding: 20px;
-}
-
-.social i,
-.ico-social,
-.icons {
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-}
-
-.icons {
-    display: none;
-    margin: 32px 64px;
-    background-color: rgba(19, 15, 14, 0.9);
-    color: #ecf0f1;
-    text-align: center;
-}
-
-.ico-social:hover {
-    color: #ecf0f1;
-}
-
-.ico-gp:hover {
-    color: #dd4b39;
-}
-
-.ico-mail2:hover {
-    color: #f1c40f;
-}
-
-.ico-user:hover {
-    color: #8e44ad;
-}
-
-.ico-yt:hover {
-    color: #cd201f;
-}
-
-.ico-spotify:hover {
-    color: #2ebd59
+img {
+    padding-top: 128px;
 }
 
 a {
-    text-decoration: underline;
-    color: #130f0e;
+    color: inherit;
+    text-decoration: none;
     transition-duration: 0.3s;
 }
 
-a:hover {
-    color: #8e44ad;
+a:active {
+    color: #3498db;
 }
 
-.contactform {
-    margin: 32px;
-    padding: 32px;
-    display: none;
-    font-size: 18px;
-}
 
-.input {
-    padding: 6px;
-}
+/* Title */
 
-.itemname {
-    padding: 32px 0 8px 0;
-}
-
-.highlighted {
-    background-color: #130f0e;
-}
-
-.construction {
-    padding: 12px;
+.title {
     text-align: center;
-    font-size: 18px;
-    background-color: #130f0e;
-    color: #ecf0f1;
-    text-transform: uppercase;
+}
+
+.title h1 {
+    font-size: 48px;
+    padding-top: 28px;
+    padding-bottom: 12px;
+    font-weight: 300;
+}
+
+.title p,
+a:hover,
+.post p {
+    color: rgba(19, 15, 14, 0.6);
+}
+
+.title p,
+.post {
+    font-weight: 400;
+}
+
+.title p,
+.post h2 {
+    font-size: 24px;
+}
+
+
+/* Content */
+
+.post {
+    padding: 64px;
+}
+
+.post h2 {
+    padding-bottom: 12px;
+    font-weight: 400;
+}
+
+.post p {
+    font-size: 24px;
 }
