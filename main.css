@@ -15,31 +15,37 @@ body {
     font-family: 'Lato', sans-serif;
     text-align: center;
     color: #130f0e;
+    width: 60%;
+    margin: auto;
 }
 
 img {
-    margin: 72px 32px 12px 32px;
+    padding: 64px 32px 32px 32px;
 }
 
 h1 {
     font-size: 48px;
-    margin: 32px 32px 6px 32px;
     font-weight: 400;
+    padding: 12px 32px 0 32px;
 }
 
 h2 {
-    margin: 6px 32px 32px 32px;
-    font-size: 18px;
+    padding: 0 32px;
+}
+
+h2,
+.content {
+    font-size: 24px;
 }
 
 .content {
-    margin: 32px 248px;
+    padding: 48px;
     text-align: justify;
-    font-size: 18px;
 }
 
 .content,
-.social {
+.social,
+h2 {
     opacity: 0.8;
 }
 
@@ -60,7 +66,7 @@ a:active {
 }
 
 .social {
-    margin-top: 64px;
+    padding-bottom: 64px;
 }
 
 .social i {
