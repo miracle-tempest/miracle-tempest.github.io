@@ -74,30 +74,18 @@ a:active {
     color: #130f0e;
 }
 
-.ico-gp:hover {
+.ico-google-plus:hover {
     color: #dd4b39;
 }
 
-.ico-gh:hover {
+.ico-github-alt:hover {
     color: #4183c4;
 }
 
-.ico-yt:hover {
-    color: #cd201f;
-}
-
-.ico-spotify:hover {
-    color: #2ebd59
-}
-
-.ico-mail2:hover {
-    color: #f1c40f;
+.ico-envelope-o:hover {
+    color: #9b59b6;
 }
 
 ui {
     list-style: none;
-}
-
-#profilepic {
-    border-radius: 100%;
 }
