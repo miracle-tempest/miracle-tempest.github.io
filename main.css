@@ -7,7 +7,7 @@
 
 ::selection {
     color: #ecf0f1;
-    background-color: #8e44ad;
+    background-color: #9b59b6;
 }
 
 body {
@@ -20,13 +20,13 @@ body {
 }
 
 img {
-    padding: 64px 32px 32px 32px;
+    padding: 64px 32px 0 32px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 400;
-    padding: 12px 32px 0 32px;
+    padding: 48px 32px 0 32px;
 }
 
 h2 {
@@ -52,9 +52,6 @@ h2 {
 a {
     color: #130f0e;
     text-decoration: underline;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    transition-duration: 0.3s;
 }
 
 a:hover {
@@ -69,11 +66,15 @@ a:active {
     padding-bottom: 64px;
 }
 
-.social i {
-    display: inline-block;
+.ico,
+a {
     -webkit-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
+}
+
+.ico {
+    display: inline-block;
     padding: 20px;
     position: relative;
     top: 10px;
@@ -88,10 +89,16 @@ a:active {
     color: #4183c4;
 }
 
-.ico-envelope-o:hover {
+.ico-envelope-o:hover,
+.ico-home:hover {
     color: #9b59b6;
 }
 
-ui {
+ul {
     list-style: none;
+    text-align: center;
+}
+
+li {
+    padding: 24px;
 }
