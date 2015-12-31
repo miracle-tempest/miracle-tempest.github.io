@@ -29,7 +29,8 @@ a:active {
 
 .title p,
 a:hover,
-.post p {
+.post p,
+ol {
     color: rgba(19, 15, 14, 0.6);
 }
 
@@ -39,7 +40,8 @@ a:hover,
 }
 
 .title p,
-.post h2 {
+.post,
+ol {
     font-size: 24px;
 }
 
@@ -55,6 +57,4 @@ a:hover,
     font-weight: 400;
 }
 
-.post p {
-    font-size: 24px;
-}
+ol {}
