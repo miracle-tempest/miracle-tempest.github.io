@@ -13,10 +13,12 @@
 body {
     background-color: #ecf0f1;
     font-family: 'Lato', sans-serif;
-    text-align: center;
     color: #130f0e;
-    width: 80%;
-    margin: auto;
+}
+
+body,
+.foo {
+    text-align: center;
 }
 
 img {
@@ -40,7 +42,6 @@ h2,
 }
 
 .content,
-.social,
 h2 {
     opacity: 0.8;
 }
@@ -51,6 +52,12 @@ h2 {
 
 .post p {
     margin-top: 12px;
+}
+
+.post,
+.foo {
+    margin: auto;
+    width: 80%;
 }
 
 a {
@@ -66,14 +73,12 @@ a:active {
     color: #8e44ad;
 }
 
-
-/*
 .social {
-    padding-bottom: 64px;
     text-decoration: none;
+    background-color: #130f0e;
+    color: #ecf0f1;
+    opacity: 0.4;
 }
-
-
 
 .ico,
 a {
@@ -83,9 +88,21 @@ a {
 }
 
 .ico {
-    display: inline-block;
-    padding: 20px;
     position: relative;
+    padding: 20px;
     top: 10px;
-    color: #130f0e;
-} */
+    color: #ecf0f1;
+    display: inline-block;
+}
+
+.ico-facebook:hover {
+    color: #3b5998;
+}
+
+.ico-twitter:hover {
+    color: #55acee;
+}
+
+.ico-envelope-o:hover {
+    color: #9b59b6;
+}
