@@ -87,12 +87,13 @@ a {
     transition-duration: 0.3s;
 }
 
-.ico {
+.social i {
     position: relative;
     padding: 20px;
     top: 10px;
-    color: #ecf0f1;
+    color: inherit;
     display: inline-block;
+    color: #ecf0f1;
 }
 
 .ico-google-plus:hover {
@@ -105,4 +106,9 @@ a {
 
 .ico-envelope-o:hover {
     color: #2ecc71;
+}
+
+.sun {
+    font-size: 8em;
+    padding-top: 48px;
 }
