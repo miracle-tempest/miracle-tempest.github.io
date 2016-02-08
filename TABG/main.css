@@ -95,8 +95,8 @@ a {
     display: inline-block;
 }
 
-.ico-facebook:hover {
-    color: #3b5998;
+.ico-google-plus:hover {
+    color: #dc4e41;
 }
 
 .ico-twitter:hover {
@@ -104,5 +104,5 @@ a {
 }
 
 .ico-envelope-o:hover {
-    color: #9b59b6;
+    color: #2ecc71;
 }
